@@ -1,0 +1,24 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "Server.js",
+    "scripts": {
+        "start": "node Server.js",
+        "watch": "nodemon Server.js"
+    },
+    "keywords": [],
+    "author": "Emily Simone",
+    "license": "MIT",
+    "dependencies": {
+        "apollo-server-express": "^3.13.0",
+        "bcrypt": "^5.1.1",
+        "express": "^4.19.2",
+        "graphql": "^16.9.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.4.4"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    }
+}

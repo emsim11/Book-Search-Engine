@@ -1,0 +1,17 @@
+Body {
+    font-family: 'Rubik', sans-serif;
+}
+
+H1,
+H2,
+H3,
+H4,
+H5,
+H6 {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.Small {
+    font-weight: 300;
+    font-style: italic;
+}

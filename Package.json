@@ -1,0 +1,19 @@
+{
+    "name": "google-books-library",
+    "version": "1.0.0",
+    "description": "",
+    "main": "Server/Server.js",
+    "scripts": {
+        "start": "node Server/Server.js",
+        "dev": "concurrently \"cd Server && npm run watch\" \"cd Client && npm start\"",
+        "install": "cd Server && npm i && cd ../Client && npm i",
+        "build": "cd Client && npm run build",
+        "render-build": "npm install && npm run build"
+    },
+    "keywords": [],
+    "author": "Emily Simone",
+    "license": "MIT",
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
